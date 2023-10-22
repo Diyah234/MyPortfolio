@@ -99,12 +99,12 @@ body{
   }
   
   #nav-icon2.open span:nth-child(5) {
-    left: 5px;
+    left: 4px;
     top: 25px;
   }
   
   #nav-icon2.open span:nth-child(6) {
-    left: calc(50% - 5px);
+    left: calc(50% - 4px);
     top: 25px;
   }
 
@@ -381,7 +381,7 @@ input:focus , textarea:focus{
         display: none;
         float: none;
         top: 70px;
-        height: 16vh;
+        height: 18vh;
         text-align: left;
         padding: 10px;
     }
@@ -483,7 +483,7 @@ input:focus , textarea:focus{
     }
     .menu-nav{
         background-color: #633939;
-        height: 65px;
+        height: 50px;
         padding: 20px;
         position: fixed;
         left: 0;
@@ -496,7 +496,7 @@ input:focus , textarea:focus{
         display: none;
         float: none;
         top: 70px;
-        height: 30vh;
+        height: 35vh;
         text-align: left;
         padding: 10px;
     }
