@@ -100,12 +100,12 @@ body{
   
   #nav-icon2.open span:nth-child(5) {
     left: 5px;
-    top: 29px;
+    top: 25px;
   }
   
   #nav-icon2.open span:nth-child(6) {
     left: calc(50% - 5px);
-    top: 29px;
+    top: 25px;
   }
 
 header{
@@ -483,7 +483,7 @@ input:focus , textarea:focus{
     }
     .menu-nav{
         background-color: #633939;
-        height: 50px;
+        height: 65px;
         padding: 20px;
         position: fixed;
         left: 0;
