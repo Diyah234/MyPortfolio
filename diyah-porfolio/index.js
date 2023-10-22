@@ -69,8 +69,5 @@ menuButton.addEventListener("click", function() {
 
 
 
-var cv = document.getElementById("cv");
-function download(){
-  cv.download();
-}
+
   
