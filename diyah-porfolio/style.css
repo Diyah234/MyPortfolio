@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     /* background-color: #906060;
     color: #FFEAEA; */
@@ -365,6 +368,9 @@ input:focus , textarea:focus{
 @media screen and (min-width:440px) and (max-width: 480px) {
     html{
         overflow-x: hidden;
+    }
+    body{
+        overflow-y: scroll;
     }
     .menu-nav{
         background-color: #633939;
