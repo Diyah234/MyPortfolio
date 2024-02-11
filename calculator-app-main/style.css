@@ -1,0 +1,240 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+    text-align: center;
+    color: white;
+}
+main{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.toggle{
+    background-color: hsl(223, 31%, 20%);
+    width: 2.7rem;
+    height: 15px;
+    border-radius: 15px;
+    padding: 1px;
+}
+.red-ball{
+    background-color: hsl(6, 63%, 50%);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.red-ball:hover{
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.left p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.theme p{
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.toggle-num{
+    font-size: 12px;
+    
+}
+.result{
+    background-color: hsl(224, 36%, 15%);
+    text-align: right;
+    width: 90%;
+    border-radius: 10px;
+    margin:  0 auto;
+    color: white;
+    padding: 0 20px;
+    height: 5.3rem;
+    margin-top: -2rem;
+    font-size: 35px;
+    position: relative;
+    font-weight: 700;
+    border: none;
+}
+.result:focus{
+    outline: none;
+}
+.result::placeholder{
+    opacity: 0.5;
+    font-size: 30px;
+}
+.calc{
+    margin-top: 5%;
+    background-color: hsl(223, 31%, 20%);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1.3rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,26%);
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2,52%);
+}
+.grid2 button{
+    width: 90%;
+    margin-bottom: 5px;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    font-weight: 700;
+    border-radius: 6px;
+    border-left: none;
+    border-right: none;
+}
+button{
+    width: 3.2em;
+    padding: 2px;
+    font-size: 22px;
+    margin-bottom: 12px;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    font-weight: 700;
+    border-radius: 6px;
+    border-left: none;
+    border-right: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.plus ,.times, .del{
+    font-size: 18px;
+    width: 80%;
+    font-weight: 800;
+}
+.del, .grid2 .reset{
+    color: white;
+    background-color: hsl(225, 21%, 49%);
+    border-color: hsl(225, 21%, 49%);
+    font-size: 15px;
+    padding: 10px;
+}
+.grid2 .equal{
+    background-color: hsl(6, 70%, 34%);
+    border-color: hsl(6, 70%, 34%);
+    color: white;
+    font-size: 16px;
+    padding: 7px;
+}
+.grid2 .reset:hover, .grid2 .equal:hover, .del:hover{
+    filter: brightness(1.8);
+    opacity: 0.8;
+}
+.del:hover{
+    background-color: hsl(225, 21%, 49%);
+}
+
+.red-ball2{
+    background-color: hsl(25, 98%, 40%);
+}
+.main2{
+    color: black;
+    background-color: hsl(0, 0%, 90%);
+}
+.main2 .result{
+    background-color: hsl(0, 0%, 93%);
+    color: black;
+}
+.main2 .del, .main2 .grid2 .reset{
+    background-color: hsl(185, 42%, 37%);
+    border-color: hsl(185, 42%, 37%);
+}
+.main2 .grid2 .equal{
+    background-color: hsl(25, 98%, 40%);
+    border-color: hsl(25, 98%, 40%);
+}
+.main2 .calc, .main2 .toggle{
+    background-color: hsl(0, 5%, 81%);
+}
+.main2 .reset:hover, .main2 .del:hover{
+    filter: brightness(1.4);
+    opacity: 0.8;
+}
+
+.main3{
+    background-color: hsl(268, 75%, 9%);
+    color: hsl(52, 100%, 62%);
+}
+.main3 .red-ball{
+    background-color: hsl(176, 100%, 44%);
+}
+.main3 .toggle, .main3 .calc, .main3 .result{
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(52, 100%, 62%);
+}
+.main3 button{
+    color: hsl(52, 100%, 62%);
+    background-color: hsl(268, 47%, 21%);
+    border-color: hsl(268, 47%, 21%);
+    border-bottom-color: hsl(290, 70%, 36%);
+}
+.main3 button:hover{
+    background-color: hsl(281, 89%, 26%);
+}
+.main3 .reset, .main3 .del{
+    background-color: hsl(281, 89%, 26%);
+    border-color: hsl(281, 89%, 26%);
+    border-bottom-color: hsl(285, 91%, 52%);
+    color: white;
+}
+.main3 .equal{
+    background-color: hsl(176, 100%, 44%);
+    border-color: hsl(176, 100%, 44%);
+    border-bottom-color: hsl(177, 92%, 70%);
+    color: black;
+}
+.main3 .reset:hover, .main3 .del:hover, .main3 .equal:hover{
+    filter: brightness(1.4);
+    opacity: 0.9;
+}
+.main3 .equal:hover{
+    background-color: hsl(176, 100%, 44%);
+}
+
+@media screen and (max-width: 377px) {
+    main{
+        width: 90%;
+    }
+    .minus{
+        width: 80%;
+    }
+    
+}
+@media screen and (min-width:378px) and (max-width:550px){
+    main{
+        width: 85%;
+    }
+    .minus{
+        width: 80%;
+    }
+    
+}
+@media screen and (min-width:551px) and (max-width:780px){
+    main{
+        width: 60%;
+    }
+    .minus{
+        width: 80%;
+    }
+    
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scalen=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body class="bg-orange-600">
+    <main class="bg-amber-50 lg:w-2/5 p-8 m-auto mt-40 w-11/12">
+        <div class="flex flex-row justify-left pb-8">
+            <h1 class="text-3xl lg:text-4xl">TO-DO List</h1><i class="fa-solid fa-list fa-2xl pl-5 mt-5"
+                style="color: #000000;"></i>
+        </div>
+        <div class="flex flex-row">
+            <div class="bg-gray-300 rounded-xl w-8/12 p-2 "><input type="text"
+                    class="outline-none bg-gray-300 w-11/12 ml-3" id="input-box"></div>
+            <button class="ml-10 h-10 p-2 bg-violet-700 text-white rounded-xl w-20" id="btn">ADD</button>
+        </div>
+        <ul id="list" class="list">
+
+        </ul>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

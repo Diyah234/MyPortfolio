@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+<main>
+  <section class="head">
+    <div class="left"><p>calc</p></div>
+    <div class="right">
+      <div class="theme"><p>THEME</p></div>
+      <div>
+      <div class="toggle-num">1&nbsp;&nbsp; 2&nbsp; &nbsp;3</div>
+      <div class="toggle"><div class="red-ball" id="indicator"></div></div>
+    </div>
+    </div>
+  </section>
+ 
+  <div ><input type="text" id="inputBox" value="0" class="result" placeholder="0.000"></div>
+ 
+  <section class="calc">
+    <div class="grid">
+      <button data-number>7</button>
+     <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-delete class="del">DEL</button>
+    </div>
+    <div class="grid">
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation class="plus">+</button>
+    </div>
+    <div class="grid">
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button class="minus">-</button>
+    </div>
+    <div class="grid">
+      <button data-number="">.</button>
+      <button data-number>0</button>
+      <button data-operation="">/</button>
+      <button data-operation class="times">*</button>
+    </div>
+    <div class="grid2">
+      <button data-reset class="reset">RESET</button>
+      <button data-equals class="equal">=</button>
+    </div>
+  </section>
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>
+
