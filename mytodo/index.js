@@ -1,6 +1,7 @@
 const inputBox = document.getElementById("input-box")
 const button = document.getElementById("btn")
 const lists = document.getElementById("list")
+const search = document.getElementById('search')
 
 button.addEventListener('click', function(){
     if (inputBox.value == "") {
@@ -16,4 +17,5 @@ button.addEventListener('click', function(){
     }
     inputBox.value = ""
 })
+
 
