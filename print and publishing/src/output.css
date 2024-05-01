@@ -2619,12 +2619,17 @@ body{
     width: 100%;
   }
 
+  .home p{
+    width: 100%;
+  }
+
   .lists{
     position: absolute;
     background-color: white;
     padding: 1rem;
     top: 5rem;
     box-shadow: 1px 1px 2px rgb(220, 220, 220);
+    display: flex;
     flex-direction: column;
   }
 
@@ -2713,6 +2718,14 @@ body{
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:ml-52 {
+    margin-left: 13rem;
+  }
+
+  .lg\:ml-60 {
+    margin-left: 15rem;
   }
 
   .lg\:flex {
