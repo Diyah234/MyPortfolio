@@ -5,8 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1 class="bg-black">hey</h1>
+    <header class="px-12 py-4 fixed inset-x-0 top-0 bg-white shadow-md pr-32">
+        <nav class="flex lg:flex-row justify-between items-center">
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <div class="flex lg:flex-row justify-center items-center lists flex-col" id="lists">
+            <a href="#home" class="mr-4 text-xl pt-4">Home</a>
+            <a href="#features" class="mr-4 text-xl pt-4">What we do</a>
+            <a href="#contact" class="mr-4 text-xl pt-4">Contact Us</a>
+            </div>
+            <div>
+                <button class="button p-2 rounded-xl text-white border-none lg:ml-48">Get Started</button>
+                
+            </div>
+            <div class="hamburger">
+                <div  class="" id="menu"><i class="fa-solid fa-bars fa-2xl menu" style="color: #000000;"></i></div>
+                <i class="fa-solid fa-x fa-2xl close" style="color: #000000;" id="close"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="home lg:py-36 px-16 lg:py-40 py-20" id="home">
+        <div>
+            <h1 class="lg:text-5xl w-6/12 font-bold text-4xl">Speciality investment and marketing Ltd</h1>
+            <p class="text-base w-6/12 py-5">Publish globally, hassle-free! Our global distribution network eliminates inventory risks and fulfillment worries, so you can focus on creating.</p>
+            <button class="px-6 py-3 rounded-xl font-semibold">Get Started</button>
+        </div>
+    </section>
+    <section class="features py-28" id="features">
+        <h1 class="text-5xl font-bold pb-8 text-center">What we do</h1>
+        <div class="grid lg:grid-cols-4 pt-8 gap-x-3 px-8 lg:mr-12 grid-cols-1">
+            <div class="box pt-4 lg:mt-0">
+                <div><img src="printer-regular-60.png" alt=""></div>
+                <h3 class="font-bold text-2xl py-2">Prints</h3>
+                <p class="">we offer professional book printing services tailored to your needs. </p>
+            </div>
+            <div class="box pt-4 lg:mt-0">
+                <img src="book-solid-60.png" alt="">
+                <h3 class="font-bold text-2xl py-2">Publishing</h3>
+                <p>From cover design to distribution, we can publish your book perfectly.</p>
+            </div>
+            <div class="box pt-4 lg:mt-0">
+                <img src="dollar-circle-regular-60.png" alt="">
+                <h3 class="font-bold text-2xl py-2">Book selling and distribution</h3>
+                <p>We provide comprehensive book selling and distribution solutions, making it available to readers.</p>
+            </div>
+            <div class="box pt-4 lg:mt-0">
+                <img src="user-regular-60.png" alt="">
+                <h3 class="font-bold text-2xl py-2">Manufacturers representative</h3>
+                <p>we facilitate collaborations between artists, authors, and manufacturers to bring unique products to market</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact lg:flex lg:flex-row justify-between items-center pt-8 lg:pt-0" id="contact">
+        <div class="pl-20">
+        <h1 class="text-6xl text-white items-center">Contact Us</h1>
+        <p class="text-white py-4">You can message us from any of these social media platforms</p>
+        <i class="fa-brands fa-whatsapp fa-xl pl-4 pt-4" style="color: #f8702b;"></i>
+        <i class="fa-regular fa-envelope fa-xl pl-4 pt-4" style="color: #f8702b;"></i>
+        <i class="fa-brands fa-instagram fa-xl pl-4 pt-4" style="color: #f8702b;"></i>
+    </div>
+    <div class="hand-img">
+        <img src="kelly-sikkema-roJv_dmHKVA-unsplash-Photoroom.jpg" alt="" class="w-7/12">
+    </div>
+    </section>
+
+    <script src="index.js"></script>
 </body>
 </html>

@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* header{
+    background-color: white;
+    box-shadow: 1px 2px 1px rgb(235, 234, 234);
+} */
+body{
+    overflow-x: hidden;
+}
+.home{
+    background-image: url(./beatriz-perez-moya-XN4T2PVUUgk-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+}
+.home button{
+    border: 2px solid #f8702b;
+}
+.logo img{
+    width: 70%;
+    margin-right: -10rem;
+}
+.button{
+    background-color: #f8702b;
+}
+.box{
+    margin: 0 auto;
+    text-align: center;
+}
+.box img{
+    margin: 0 auto;
+}
+.box p{
+    width: 90%;
+}
+.contact{
+    background-color: black;
+}
+.hand-img{
+    margin-right: -30rem;
+}
+.hamburger .close{
+    display: none;
+}
+@media screen and (min-width: 769px) {
+    .hamburger .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+       background-size: cover;
+    }
+    .features{
+        margin: 0 auto;
+    }
+    .button{
+        display: none;
+    }
+    .box p{
+        width: 100%;
+    }
+    .home h1{
+        width: 100%;
+    }
+    .home p{
+        width: 100%;
+    }
+    .lists{
+        position: absolute;
+        background-color: white;
+        padding: 1rem;
+        top: 5rem;
+        box-shadow: 1px 1px 2px rgb(220, 220, 220);
+        display: flex;
+        flex-direction: column;
+    }
+    #lists{
+        display: none;
+    }
+    .hamburger .menu{
+        display: block;
+        
+    }
+}
