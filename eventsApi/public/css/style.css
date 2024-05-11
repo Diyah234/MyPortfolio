@@ -1,0 +1,80 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin-left: 3rem;
+}
+
+
+input{
+    padding: 10px;
+   
+}
+button{
+    padding: 10px;
+}
+#events-container{
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    
+    margin: 0 auto;
+}
+#events-container .box{
+    background-color: #f5f5f5;
+    box-shadow: 1px 2px 2px rgb(227, 227, 227);
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 70%;
+}
+form{
+    margin-bottom: 2rem;
+}
+.box .image{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    color: #c8553d;
+    padding-top: 10px;
+}
+.text{
+    width: 50%;
+    margin-top: -20px;
+}
+#events p{
+    width: 95%;
+}
+button{
+    background-color: #c8553d;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+}
+#preloader{
+    display: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        margin-left: 1rem;
+    }
+    .text{
+        width: 90%;
+    }
+    #events-container{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    #events-container img{
+        width: 80%;
+    }
+    #events-container .box{
+        margin-left: -10px;
+    }
+}

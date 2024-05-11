@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Locate-Events</h1>
+    <p class="text">This website is a powerful tool that allows you to discover exciting events happening near you. Simply enter the name of a state into the search field, 
+        and we'll provide you with a curated list of upcoming events in that area. </p>
+    <form action="/" method="post" id="eventForm">
+        <input type="text" placeholder="Enter any state" name="state" id="stateInput">
+        <button type="submit" onclick="event()">Get</button>
+    </form>
+    
+    <div id="events">
+        
+        
+    </div>
+    <div id="preloader">
+        <!-- <h3>loading <span>...</span></h3> -->
+        <img src="/images/loading.gif" alt="" srcset="">
+    </div>
+    
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
